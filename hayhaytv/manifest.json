@@ -23,6 +23,6 @@
    },
    "permissions": [ "http://*.hayhaytv.vn/*", "http://*.codefelony.com/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.4",
+   "version": "1.0.0",
    "web_accessible_resources": [ "suck_my_dick.js" ]
 }

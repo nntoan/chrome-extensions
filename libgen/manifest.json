@@ -9,7 +9,6 @@
       "128": "icons/icon128.png",
       "48": "icons/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuENRdaRr9FSWAnBbde/d1oYyeyjjncstDt9d/oMp73sUiYjLMghOeMdsKFiTnHsUtvjYNO4G4K2MF9taqJvpQxk/1uhrBZJJyZFSH9B416ZgUG5PdJA/l3d46jt9PJmV98nzwCBHFQwDSGeDQ9gsrDMcuPDGGoShDP/i9GXH7qYJrAGxLMTcbCLT/1HGNMqKRyApGZA7REN5Mp/b9Y8kJ0Oy06BXO4nomKuMdH9HzFq5aG1EuvPvP2jgVdqPF9MPGQIz/RxnTfvM4CDZyl0fwyiBXvyZtOaAF2xMnS4msxIoruqNyJKkNCyK9seW+FB8YijeCCUuF1R94uuep+qqrwIDAQAB",
    "manifest_version": 2,
    "name": "LibGen",
    "permissions": [ "http://libgen.io/" ],
