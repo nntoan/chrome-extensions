@@ -1,2 +1,4 @@
 .packed-ext
 .backup
+*.crx
+*.pem
