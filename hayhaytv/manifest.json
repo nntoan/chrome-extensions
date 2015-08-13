@@ -1,0 +1,28 @@
+{
+   "author": "Toan Nguyen",
+   "background": {
+      "page": "src/bg/background.html",
+      "persistent": true
+   },
+   "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "http://*.hayhaytv.vn/*" ]
+   } ],
+   "description": "Xem phim tại HayHayTV mà không cần xem quảng cáo.",
+   "homepage_url": "https://nntoan.github.io",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "HayHayTV Anti-Adblock Checker",
+   "page_action": {
+      "default_icon": "icons/icon19.png",
+      "default_title": "Xem bộ phim hiện tại trên hệ thống J2TeaM!"
+   },
+   "permissions": [ "http://*.hayhaytv.vn/*", "http://*.codefelony.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4",
+   "web_accessible_resources": [ "suck_my_dick.js" ]
+}

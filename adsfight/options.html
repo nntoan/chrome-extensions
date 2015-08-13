@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Ads Fight! Options</title>
+		<link type="text/css" rel="stylesheet" href="options.css" media="all" />
+		<script src="options.js"></script>
+	</head>
+	<body>
+		<h1>Ads Fight! Options</h1>
+		<div id="coming_soon">
+			This is a fucking blank page....
+		</div>
+		<div id="options_wrapper" style="display: none;">
+			<h3>Show options</h3>
+			<div id="show_options_wrapper">
+				<button id="btn_show_options">Show options</button>
+			</div>
+			<h3>Block method</h3>
+			<div id="block_method_wrapper">
+				<select id="block_method">
+					<option value="99">None</option>
+					<option value="1">Both</option>
+					<option value="2">Frontend only</option>
+					<option value="3">Background only</option>
+				</select>
+			</div>
+			<h3>Ignore list</h3>
+			<div id="ignore-list-wrapper">
+				<div>
+					<input id="ignore-domain" name="ignore-domain" size="60"></input>&nbsp;
+					<button id="save">Add more</button>
+				</div>
+				<div id="ignore-domain-description">
+					Ex: <span class="bold">google.com</span> or <span class="bold">facebook.com</span>
+				</div>
+			</div>
+		</div>
+		<span id="version_wrapper">version: @<span></span></span>
+	</body>
+</html>

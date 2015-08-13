@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-2.1.4.min.js", "hdvip.js" ],
+      "matches": [ "http://movies.hdviet.com/*" ]
+   } ],
+   "description": "Remove advertise and watch HDVip movies of hdviet.com without login.",
+   "manifest_version": 2,
+   "name": "HDVip Movies",
+   "page_action": {
+      "default_icon": "hdviet.png",
+      "default_title": "Remove advertise and watch HDVip movies of hdviet.com without login."
+   },
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "permissions": [ "webRequest", "webRequestBlocking", "declarativeContent", "http://plist.vn-hd.com/*.m3u8", "http://*.serving-sys.com/*", "http://*.doubleclick.net/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

@@ -1,0 +1,1 @@
+chrome.extension.onMessage.addListener(function(e,o,n){chrome.pageAction.show(o.tab.id),n()}),chrome.pageAction.onClicked.addListener(function(){chrome.tabs.create({url:"https://www.facebook.com/JunoOkyoBlog"})});
